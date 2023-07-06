@@ -12,7 +12,7 @@
 
     <div class="box" id="heading">
         <h1>
-            <%= kindOfDay %>
+            <%= listTitle %>
         </h1>
     </div>
     <div class="box">
@@ -25,7 +25,7 @@
                 </p>
             </div>
             <%}%>
-                <form action="/" method="post" class="item">
+                <form action="<%= redirectionPage %>" method="post" class="item">
                     <input type="text" name="newItem" id="" placeholder="New Item" autocomplete="off">
                     <button type="submit" name="button">+</button>
                 </form>
